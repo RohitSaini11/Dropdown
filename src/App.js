@@ -23,7 +23,6 @@ function App() {
           <label className="label">
             Should you use a dropdown? 
           </label>
-
             <select value={value} onChange={handleChange} name="select" placeholder="Select">
               {options.map((option) => (
                 <option  key={option.key} value={option.value}>{option.label}</option>
