@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 *{
   color:rgb(60, 59, 59);
+  font-family: 'Open Sans', sans-serif;
 }
 #container{
   height:30rem;
