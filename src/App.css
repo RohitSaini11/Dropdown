@@ -1,16 +1,37 @@
 *{
-  margin:0px;
-  padding:0px;
+  color:rgb(60, 59, 59);
 }
-#drpdwn-cont{
-  text-align: center;
-  height:100px;
+#container{
+  height:30rem;
   width:100%;
-  padding:10px 0px;
-  margin-top:40px;
+  
+  background-color: skyblue;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
 }
-#drpdwn-cont select{
-  margin-left:10px;
-  padding:10px;
-  width:10rem;
+
+#container select{  
+  padding:1rem;
+  width:15.5rem;
+  font-size: larger;
+  border-radius: 5px;
+  border: 1px solid white;
+  background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #fff;
+  appearance: none;
+  background-position-x: 13.75rem;
 }
+#container select:focus{
+  outline: none;
+}
+.label{
+  font-weight: bolder;
+  margin: .2em;
+  font-size: large; 
+}
+
+
+
+
